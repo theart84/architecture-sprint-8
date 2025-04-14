@@ -114,8 +114,8 @@
         "clientId": "reports-frontend",
         "enabled": true,
         "publicClient": true,
-        "redirectUris": ["http://192.168.1.110:3000/*"],
-        "webOrigins": ["http://192.168.1.110:3000"],
+        "redirectUris": ["http://localhost:3000/*"],
+        "webOrigins": ["http://localhost:3000"],
         "standardFlowEnabled": true,
         "directAccessGrantsEnabled": false,
         "attributes": {

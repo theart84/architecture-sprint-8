@@ -39,7 +39,6 @@ app.get('/reports', (req: Request, res: Response) => {
       getKey,
       {
         algorithms: ['RS256'],
-        issuer: keycloakIssuer,
       },
       (err, decoded) => {
         if (err) {
